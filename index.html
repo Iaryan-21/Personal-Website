@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aryan's portfolio showcasing expertise in Deep Learning, Computer Vision, Language Processing, and Robotics.">
+    <meta name="keywords" content="Deep Learning, Robotics, Computer Vision, Language Processing, Portfolio, Aryan S. Mishra">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Aryan S. Mishra",
+      "jobTitle": "Deep Learning and Robotics Enthusiast",
+      "url": "http://yourwebsite.com",
+      "sameAs": [
+        "https://github.com/yourprofile",
+        "https://linkedin.com/in/yourprofile"
+      ]
+    }
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'YOUR_TRACKING_ID');
+    </script>
+</head>
+<body>
+    <!--HEADER DESIGN-->
+    <header class="header">
+        <a href="#" class="logo">Aryan</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skill Set</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!--HOME SECTION DESIGN-->
+     <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Aryan</h1>
+            <h3>Passionate Deep Learning and Robotics Enthusiast</h3>
+            <p>Interested in Deep Learning, Computer Vision , Language Processing and Applied Robotics.</p>
+            <div class="social-media">
+                <a href="https://github.com/Iaryan-21"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/aryanmishra21/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/iAryan21"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1Pj-HYn0he9Shd8Mo9IhVQ_0tFLKsGb8E/view?usp=sharing" class="btn">Download Resume</a>
+        </div>
+        <div class="home-img">
+            <!-- <img src="me.jpeg" alt=""> -->
+        </div>
+     </section>
+
+<!--ABOUT SECTION DESIGN-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="me.jpeg" alt="Aryan S. Mishra" loading="lazy">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">ABOUT <span>Me</span></h2>
+        <p>I am <strong>Aryan S. Mishra</strong>, currently pursuing a Master of Engineering in Robotics at the University of Maryland, College Park. My work spans Deep Learning, Robotics, Computer Vision, and Language Processing. I completed my undergraduate studies in Electronics and Communication Engineering at VIT Vellore, India.</p>
+
+        <p>I have significant experience in deploying projects using GANs, LSTMs, and segmentation-based neural networks. As a robotics major, I am skilled in designing, modeling, and controlling robots, as well as deploying perception and computer vision pipelines and ROS2 software architectures. My projects include GAN deployment, MRI data segmentation, ARIAC module efficiency, and stereo vision pipelines.</p>
+
+        <p><strong>At the Tubaldi Lab under Dr. Eleonora Tubaldi, I have contributed to two key projects:</strong></p>
+
+        <p><strong>Automatic Segmentation of the Aorta</strong><br>
+        - Deployed neural networks like V-NET, U-NET, SSL, and Uncertainty-Informed Prototype Consistency Learning.<br>
+        - Achieved accuracies of 95%, 94.75%, 93%, and 97% respectively.</p>
+        <p><strong>Characterizing the Tactile Gripping Action of a Soft Robotic Gripper</strong><br>
+         <strong>Goal:</strong> Detect the shape,size and characteristics of the object that the gripper is picking up only on the basis of the pressure volume curve based on how much it inflates and deflates.<br>
+        - Set up experiments including manufacturing grippers and 3D printing object bases.<br>
+        - Utilized Harvard Apparatus and linear stages with MATLAB and LabVIEW.<br>
+        - Designed a PCB circuit for pressure, servo motor, and connector circuit.<br>
+        - Collected and analyzed data to predict object characteristics using classification and regression algorithms.<br>
+        - Worked with a UR-3e robot for the experiments.</p>
+
+        <p>My role as a Robotics Intern at Aditya Aluminium showcased my ability to optimize industrial processes and innovate robotic solutions.</p>
+
+        <p>My ambition is to impact medical imaging and robotics through deep learning and computer vision. My journey reflects a commitment to learning, innovation, and solving practical challenges. I aim to contribute to teams leveraging the latest in robotics and AI, driven by a passion for technology.</p>
+
+        <a href="#" class="btn">Read More</a>
+    </div>
+</section>
+    <!--PROJECTS SECTION DESIGN-->
+     <section class="projects" id="projects">
+        <h2 class="heading">Selected <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="train_epoch_56_batch_20.png" alt="" style="width: 400px; height: 150px;">
+                <div class="projects-layer">
+                    <h4>Hippocampal Volumetric Quantification of Alzheimer's progression</h4>
+                    <p>Deployed UNET and DeepLabV3+</p>
+                    <a href="https://github.com/Iaryan-21/Hippocampus_Volumetric_Analysis" target="_blank" class="icon-link">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="CycleGAN.webp" alt=""  style="width: 400px; height: 150px;">
+                <div class="projects-layer">
+                    <h4>Generative Adversarial Networks</h4>
+                    <p>Deployed CycleGAN , Progressive GAN and Deep Convolution GAN</p>
+                    <a href="https://github.com/Iaryan-21/GAN" target="_blank" style="color: inherit; text-decoration: none;">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="projects-box">
+                <img src="ARIAC.png" alt="" style="width: 400px; height: 150px;" >
+                <div class="projects-layer">
+                    <h4>Agile Robotics for Industrial Automation</h4>
+                    <p>Robots perform agility and efficient challanges in dynamic environment</p>
+                    <a href="https://github.com/HKyatham/ariac_group-2" target="_blank" style="color: inherit; text-decoration: none;">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                    
+                </div>
+            </div>
+            
+            <div class="projects-box">
+                <img src="T_BOT_CH.png" alt="" style="width: 400px; height: 150px;">
+                <div class="projects-layer">
+                    <h4>Maneuvering TurtleBot in a dynamic environment</h4>
+                    <p>
+                        Deployed perception algorithms for horizon detection, stop sign detection, optical flow, and white paper path.</p>
+                    <a href="https://github.com/Iaryan-21/TurtlebotChallenge" target="_blank" style="color: inherit; text-decoration: none;">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                    
+                </div>
+            </div>
+            
+            <div class="projects-box">
+                <img src="download.png" alt="" style="width: 400px; height: 150px;">
+                <div class="projects-layer">
+                    <h4>Stereo Camera Calibration</h4>
+                    <p>Created a pipeline for Stereo Vision System</p>
+                    <a href="https://github.com/Iaryan-21/Stereo-Camera-Calibration" target="_blank" style="color: inherit; text-decoration: none;">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                    
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="download.png" alt="" style="width: 400px; height: 150px;">
+                <div class="projects-layer">
+                    <h4>Stereo Camera Calibration</h4>
+                    <p>Created a pipeline for Stereo Vision System</p>
+                    <a href="https://github.com/Iaryan-21/Stereo-Camera-Calibration" target="_blank" style="color: inherit; text-decoration: none;">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                    
+                </div>
+            </div>
+            
+            
+            
+
+        </div>
+     </section>
+
+    <!--EXPERIENCE SECTION DESIGN-->
+    <section class="experience" id="experience">
+        <h2 class="heading">Exper<span>ience</span></h2>
+        <div class="experience-container">
+            <div class="experience-box">
+                <h3 class="role">Machine Learning Researcher</h3>
+                <h4 class="place">Tubaldi Lab, University of Maryland</h4>
+                <p class="description">
+                    Since January 2024, my role as a Machine Learning Researcher at Tubaldi Lab, University of Maryland, has immersed me in cutting-edge research at the intersection of machine learning and medical imaging. One of my key projects involves the precise segmentation of the Aorta, employing advanced models such as V-NET, U-NET, SSL, and Uncertainty-informed Prototype Consistency Learning. This work is crucial for enhancing the accuracy of medical diagnostics, and through rigorous development and testing, I achieved impressive accuracies of 95%, 94.75%, 93%, and 97% respectively. This project not only demonstrates my ability to navigate complex machine learning landscapes but also highlights my contribution to potentially life-saving medical research.
+                    In addition to my work in medical imaging, I have also been instrumental in the development and optimization of an advanced 3D-printed robotic gripper for UR-3E robots. This innovative project leverages predictive capabilities to assess object pressure, volume, and dimensions, thereby enhancing the robot's handling efficiency and adaptability. Currently, under construction and training, this robotic gripper stands as a testament to my skills in marrying machine learning with practical robotics applications. The project embodies my commitment to pushing the boundaries of what is possible in robotics, aiming to create more intelligent, capable, and efficient robotic systems.
+                </p>
+            </div>
+    
+            <div class="experience-box">
+                <h3 class="role">Robotics Engineer</h3>
+                <h4 class="place">Aditya Aluminium, Unit of Hindalco Industries</h4>
+                <p class="description">
+                    I implemented precise programming to optimize the movement of the ingot casting conveyor belt, synchronizing it seamlessly with the stacking belt. This enhancement significantly improved operational efficiency. Additionally, I took on the responsibility of operating and maintaining the ABB Robotic arm at the cast house station, ensuring its smooth performance.
+
+Furthermore, I played a pivotal role in spearheading the conceptualization of an efficient integrated logistical robot, which brought innovative strategies to the finished goods yard. This initiative contributed to enhanced operations and productivity, showcasing my commitment to driving efficiency and innovation in our processes.
+                </p>
+            </div>
+    
+            <div class="experience-box">
+                <h3 class="role">Avionics Intern</h3>
+                <h4 class="place">STAR</h4>
+                <p class="description">
+                    I undertook the development of intricate circuitry to support the functioning of an octagonal Static Thrust Test Pad and Flight Recovery System, specifically designed to meet the rigorous demands of high-powered rocketry applications. This endeavor required a meticulous approach to circuit design, ensuring that the systems could operate efficiently and reliably during testing and recovery processes.
+
+
+
+In this project, I leveraged advanced tools such as Proteus and Raspberry Pi to implement a set of complex projects. One of the noteworthy achievements was enabling the Static Thrust Test Pad to accommodate the testing of up to eight rockets simultaneously. This not only demonstrated my technical expertise but also showcased my ability to adapt and innovate, addressing the specific requirements of rocketry testing.
+
+
+
+Furthermore, a key aspect of this undertaking was prioritizing safety. I achieved this by designing and integrating a comprehensive Flight Recovery System. This system was intricately engineered to enhance safety measures during rocket testing and recovery operations. It not only served as a testament to my electronic circuit design skills but also highlighted my proficiency in seamlessly integrating various components into a cohesive and reliable system.
+
+
+In summary, my involvement in the development of the circuitry for the Octagonal Static Thrust Test Pad and Flight Recovery System was marked by meticulous attention to detail, innovative problem-solving, and a steadfast commitment to safety, all of which significantly contributed to the success of these high-powered rocketry applications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--SKILL SET-->
+    <section class="skills" id="skills">
+        <div class="skills-content">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <ul>
+                <li><strong>Languages:</strong> Python, C, C++, MATLAB</li>
+                <li><strong>Python Libraries and Tools:</strong> TensorFlow, PyTorch, NumPy, Pandas, Matplotlib, Seaborn, Pillow, OpenCV, CUDA, Linux</li>
+                <li><strong>Robotics Architecture:</strong> Modelling, Planning, Perception, Control Systems, Robotic Operating System 2, Gazebo, MoveIt, Rviz</li>
+                <li><strong>Path Planning:</strong>Algorithms: A*, Dijkstra Algorithm, BFS, RRT, RRT*, Informed-RRT, Smart-RRT, Genetic Algorithm</li>
+                <li><strong>Control Systems:</strong>Linear and Non-Linear Systems, Controllability, Observability , Fuzzy Logic, PID Controller, LQR, LQI and LQG controllers, Kalman Filters, Extended-Kalman Filters , Luenberger Observer, Convex Optimization</li>
+                <li><strong>Perception:</strong> Computer Vision, OpenCV, Camera Calibration, Stereo Vision System, Optical Flow, Object Detection and analysis, Semantic Segmentation</li>
+                <li><strong>Deep Learning Architectures:</strong> CNN, RNN, LSTM, GAN, NeRF</li>
+                <li><strong>Deep Learning Models:</strong> VGG16, ResNET50, DenseNET, AlexNET, U-NET, YOLO, E-NET, V-NET, DEEPLABv3+,DC Gan , PRO Gan, Cycle GAN, BERT and GPT</li>
+                <li><strong>Domain Skills:</strong> Robot Perception, Localization, Deep Learning, Computer Vision, Sensor Fusion, Artificial Intelligence, LabVIEW Industrial Architecture, Microsoft Suite, Content Writing, Video Editing</li>
+                <li><strong>Computer Aided Design:</strong> SolidWorks, Proteus and easyEDA</li>
+            </ul>
+        </div>
+    </section>
+    <!--CONTACT SECTION DESIGN-->
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact</h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+     </section>
+    <!--FOOTER SECTION DESIGN-->
+      <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @AryanMishra | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+      </footer>
+
+
+    <!--MAIN JS-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
